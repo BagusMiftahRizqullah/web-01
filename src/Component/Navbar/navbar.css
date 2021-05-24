@@ -1,0 +1,54 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 30px 40px;
+    /* background-color:pink; */
+}
+
+.navContainer .logo h3{
+    font-size: 32px;
+}
+
+.navContainer .navigation a{
+    text-decoration:none;
+    color:white;
+    font-size: 24px;
+}
+
+.navContainer .navigation {
+    /* background-color: red; */
+    flex: 1;
+}
+.navContainer .navigation,
+.navContainer .logo,
+.navContainer .humberger{
+    flex: 1;
+}
+
+.navContainer .navigation{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 40px;
+}
+
+.navContainer .humberger{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 28px;
+}
+
+.navContainer .humberger a i {
+    color: white;
+}
+.navContainer .navigation .line {
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+   
+    bottom: 0;
+}

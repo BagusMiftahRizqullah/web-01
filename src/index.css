@@ -1,0 +1,20 @@
+*{ margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  
+
+}
+
+body {
+  font-family: 'koHo', sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.App { height: 100vh; 
+  width: 100vw; 
+  background: #39a293; 
+  background: -webkit-linear-gradient(top right, #39a293, #12010d); 
+  background: -moz-linear-gradient(top right, #39a293, #12010d); 
+  background: linear-gradient(to bottom left, #39a293, #12010d); 
+} 
